@@ -1,8 +1,8 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <sys/wait.h>
-#include <sys/types.h>
-#include <stdlib.h>
+#include <unistd.h> //per la fork()
+#include <stdio.h> //per la printf
+#include <sys/wait.h> //per la wait
+#include <sys/types.h> //per pid_t
+#include <stdlib.h> //per exit()
 
 int main(){
 
