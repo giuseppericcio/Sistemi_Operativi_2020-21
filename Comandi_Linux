@@ -1,0 +1,9 @@
+COMANDI LINUX - CORSO SO
+-
+- python3 ./process-run.py -l 5:50,5:100,5:100 -L 3 -S SWITCH_ON_IO -c -p
+- python3 ./process-run.py -l 5:50,5:100,5:100 -L 3 -S SWITCH_ON_IO -I IO_RUN_IMMEDIATE -c -p
+- sudo apt install mathomatic-primes
+- matho-primes 0 9999999999
+- matho-primes 0 9999999999 >/dev/null &
+- sudo killall matho-primes
+- sudo nice --10 matho-primes 0 9999999999 > /dev/null &
